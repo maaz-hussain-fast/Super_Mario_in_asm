@@ -5,20 +5,7 @@ ________________________________________
 🎮 Project Overview
 This repository contains the source code for a recreation of the classic Super Mario mechanics. The game runs in the Windows Command Prompt and utilizes the Irvine32 library for standard I/O and Winmm.lib for asynchronous sound handling.
 The project was built to explore the challenges of game loop architecture, collision detection, and rendering using raw byte manipulation in a 16-color console environment.
-✨ Key Features & Happenings
-•	Dynamic Level Loading: Maps are not hardcoded; the game reads .txt files (e.g., level1.txt) into a memory buffer, parsing characters to render terrain, enemies, and items dynamically.
-•	Physics Engine: Custom-written gravity, jumping velocity, and friction logic. Includes implementation for Double Jump mechanics.
-•	Collision Detection: Precise hitbox detection for:
-o	Ground/Ceiling (Platforming).
-o	Horizontal Obstacles (Walls).
-o	Enemy Stomping vs. Player Damage.
-o	Lava (Instant death and respawn).
-•	Power-Up System: collecting items changes player state, allowing the destruction of specific blocks ('W' or 'B' types) and changing the player's color palette.
-•	Boss Fight Logic: A programmed Boss battle (Level 3) featuring:
-o	AI Radar: The boss tracks player position relative to itself.
-o	Projectiles: Fires fireballs based on player proximity.
-•	Audio System: Integration with Windows API (PlaySoundA) to handle background music loops and asynchronous sound effects (Jump, Coin, Game Over).
-•	Persistent Leaderboard: Uses File I/O to read and write high scores to leaderboard.txt, sorting player rankings.
+
 🛠️ Technical Concepts & Challenges
 This project tackles several advanced Assembly concepts:
 1. Direct Memory Addressing & Buffer Management
