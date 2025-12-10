@@ -43,7 +43,7 @@ G	Toggle Ghost Mode (Debug)
 🚀 How to Run
 1.	Prerequisites: Visual Studio with MASM installed and the Irvine32 library configured.
 2.	Assets: Ensure all .wav sound files and .txt level files are in the same directory as the executable.
-3.	Build: Assemble and Link the try2.asm file.
+3.	Build: Assemble nd Link the try2.asm file.
 4.	Run: Execute the resulting .exe file.
 📂 File Structure
 •	try2.asm - The main source code containing game logic, data segments, and procedures.
